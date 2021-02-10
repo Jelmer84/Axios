@@ -10,7 +10,7 @@ async function displayPrizes () {
         const listItem = document.createElement("li")
 
         listItem.textContent = ` ${prize.year} - ${prize.type} ${prize.description}`;
-        // console.log(listItem)
+        /// console.log(listItem)
 
         prizelist.appendChild(listItem)
     }
